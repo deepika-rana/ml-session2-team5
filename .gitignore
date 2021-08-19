@@ -1,3 +1,5 @@
 /TuPham/venv/
-TuPham/pytorch/.DS_Store
-.DS_Store
+/TuPham/.idea
+/TuPham/pytorch/.idea
+/TuPham/.DS_Store
+
