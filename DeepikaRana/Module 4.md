@@ -1,0 +1,1 @@
+Problem Statement - Develop a classifier system that takes the title and content of a post From the Pytorch Forum and classify it into the top 12 categories and also recommend the suitable category for a post if it is previously “Uncategorized”
