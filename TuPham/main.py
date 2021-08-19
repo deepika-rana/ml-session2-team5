@@ -1,9 +1,6 @@
-import random
-import time
 from datetime import datetime
 import os
 
-from bs4 import BeautifulSoup
 from selenium import webdriver
 
 import pandas as pd
@@ -156,6 +153,7 @@ class PytorchScraper:
                 print("- Comments: ", other_comments)
                 print("- Likes: ", likes)
                 print("- View: ", view)
+                print("- Count: ", self.count)
                 # Add the new entry to the topic dictionary and Pandas dataframe
                 self.topic_dict[topic_title] = attribute_dict
                 self.topic_data_frame = self.topic_data_frame.append(attribute_dict, ignore_index=True)
