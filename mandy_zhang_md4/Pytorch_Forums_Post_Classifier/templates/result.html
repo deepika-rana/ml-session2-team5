@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PyTorch Forums</title>
+	<style>
+		body{
+			/* background-image: url('https://media.istockphoto.com/photos/light-pink-and-purple-defocused-blurred-motion-abstract-background-picture-id1138288771?k=6&m=1138288771&s=612x612&w=0&h=ctKpskhOsLTyH7kH1WMsqtKcTW4V5Ubd49TSwYLEQSA=');
+			background-size: cover;
+			background-attachment: fixed; */
+			background-color: #292c35;
+		}
+		h1{
+			display: flex;
+			justify-content: center;
+			font-size: 45px;
+			color: #d9ac52;
+		}
+		p{
+			font-size: 30px;
+			display: flex;
+			justify-content: center;
+			color: #d9ac52;
+			word-spacing: 5px;
+		}
+		b{
+			display: flex;
+			justify-content: center;
+			font-size: 120px;
+		}
+		div > p > a, a:link{
+			color: blanchedalmond;
+			margin-left: 10px;
+		}
+		div > p > a:hover{
+			color: #d9ac52;
+		}
+	</style>
+</head>
+<body>
+
+	<img src="https://pytorch.org/assets/images/pytorch-logo.png" style="width: 128px; height: 128px;">
+
+	<header>
+		<div class="container">
+		<h1>PyTorch Forums Post Classifier</h1>
+		
+	</div>
+	</header>
+	
+	<br/><br/>
+
+	<div class="results">
+		<p> Your post belongs to the following category within the <a href="https://discuss.pytorch.org/" > PyTorch Forums Community</a> :</p>
+
+		<br/><br/><br/>
+		
+		<b style="color:#e9e3c9;">{{prediction}} </b>
+	</div>
+
+</body>
+</html>
