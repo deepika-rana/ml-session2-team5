@@ -1,10 +1,19 @@
-# ML Session2 Team5 Level1
+# Tag recommender System for Pytorch Forum
 
-Code Submission by team Members in respective branches
+Problem Statement
 
-* Branch 1 - Module 1
-* Branch 2 - Module 2 
-* Branch 3 - Module 3
-* Branch 4 - Module 4
+<ul>
+<li>There exist a huge disproportion between the existing categories within the <a href="https://discuss.pytorch.org/">Pytorch Forums</a> Community.</li>
+  <li>Majority of the post are currently uncategorized.</li>
+<li>Users cannot find similar and relevant post when visiting a post in the uncategorized section.</li>
 
-Folder name corresponding to each member contains the code submission for all the 4 modules
+### Project Description
+
+Develop a classifier system that takes the title and content of a post and classify it into the top 15 categories and also recommend the suitable category for a post if it is previously “Uncategorized”
+
+
+## ML Session2 Team 5 Level 1
+
+# Demo Video
+https://user-images.githubusercontent.com/43754395/163223419-d3b5d5ea-e54c-417d-a5c1-24004199c3ed.mp4
+
